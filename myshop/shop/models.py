@@ -18,7 +18,6 @@ class Category(models.Model):
         return reverse('shop:product_list_by_category', args=[self.slug])
 
 
-
 class Product(models.Model):
 
     category = models.ForeignKey(Category,
