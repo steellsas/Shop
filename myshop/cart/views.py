@@ -31,5 +31,6 @@ def cart_remove(request, product_id):
 
 def cart_detail(request):
     cart = Cart(request)
+    print('eeeeeeeeeeeeee')
     return render(request, 'cart/detail.html', {'cart': cart})
 
