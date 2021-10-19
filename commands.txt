@@ -1,2 +1,5 @@
 # activate env
 env\Scripts\activate
+
+pip install Pillow
+
