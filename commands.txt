@@ -2,4 +2,7 @@
 env\Scripts\activate
 
 pip install Pillow
+pip install celery
 
+Redis  for celery
+RabbitMQ
