@@ -1,3 +1,3 @@
 from django.shortcuts import render
+from .models import OrderItem
 
-# Create your views here.
