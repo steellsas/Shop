@@ -21,7 +21,7 @@ a:hover {
 
 a.button, input[type="submit"] {
     color:#fff;
-    background:#5993bb;
+    background: #305975;
     border-radius:4px;
     padding:10px 20px;
     font-size:14px;
@@ -108,7 +108,7 @@ form p input {
 
 ul.errorlist {
    float:left;
-   color:#ff0000;
+   color: #8a0303;
    clear:both;
    font-size:13px;
    margin:0; 
@@ -169,7 +169,7 @@ ul.errorlist {
 }
 
 #sidebar ul li.selected {
-    background:#5993bb;
+    background: #4f6372;
     border-radius:4px;
 }
 
@@ -254,66 +254,9 @@ ul.errorlist {
 }
 
 .neg {
-    color:#dc1616;
+    color: #6b0303;
 }
 
-.languages {
-   float:right;
-   padding-top:4px;
-   font-size:14px;
-}
-
-.languages ul {
-    list-style:none;
-    margin:0;
-    padding:0;
-    float:left;
-}
-
-.languages ul li {
-    float:left;
-    margin:0 0 0 10px;
-    font-size:14px;
-}
-
-.languages p {
-    float:left;
-    margin:0;
-}
-
-.recommendations {
-    clear:both;
-}
-
-.recommendations div {
-    float:left;
-}
-
-.recommendations img {
-    width:200px
-}
-
-.recommendations p {
-    clear:both;
-}
-
-.recommendations.cart {
-    width:60%;
-    float:left;
-    overflow:auto;
-}
-
-.recommendations.cart h3 {
-    margin-top:0;
-}
-
-.recommendations.cart .item {
-    margin-right:10px;
-}
-
-.recommendations.cart img {
-    width:120px;
-}
 
 /* braintree hosted fields */
 form div.field {
