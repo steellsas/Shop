@@ -31,3 +31,7 @@ latest/index.html.
 """
 register sandbos for test payments
 Open https://www.braintreepayments.com/sandbox in your browser
+
+for passwords
+install library :pip install python-decouple
+

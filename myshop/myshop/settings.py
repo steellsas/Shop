@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
+config.encoding = 'cp1251'
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,7 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@tnc(%2&z05iegje!#m!#b-_zv49gp4me-&=@ejy)0a_#14rfn'
+SECRET_KEY = config('SECRET_KEY')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -139,9 +142,9 @@ CART_SESSION_ID = 'cart'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Braintree settings
-BRAINTREE_MERCHANT_ID = 'dmc53d4pp934d86m' # Merchant ID
-BRAINTREE_PUBLIC_KEY = 'nbskwc4nhjvjd5dh' # Public Key
-BRAINTREE_PRIVATE_KEY = 'ed686ebc1ab743aa3361a908c5c34351' # Private key
+BRAINTREE_MERCHANT_ID = config('BRAINTREE_MERCHANT_ID') # Merchant ID
+BRAINTREE_PUBLIC_KEY = config('BRAINTREE_PUBLIC_KEY') # Public Key
+BRAINTREE_PRIVATE_KEY = config('BRAINTREE_PRIVATE_KEY') # Private key
 
 import braintree
 
