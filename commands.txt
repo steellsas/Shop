@@ -2,7 +2,32 @@
 env\Scripts\activate
 
 pip install Pillow
-pip install celery
 
-Redis  for celery
-RabbitMQ
+pip install celery
+need install  RabbitMQ
+
+"""
+Now open the administration site at http://127.0.0.1:8000/admin/orders/
+order/. You will see that the order has been successfully created.
+Launching asynchronous tasks with
+Celery
+Everything you execute in a view affects response times. In many situations,
+you might want to return a response to the user as quickly as possible and let the
+server execute some process asynchronously. This is especially relevant for timeconsuming
+processes or processes subject to failure, which might need a retry
+policy. For example, a video sharing platform allows users to upload videos but
+requires a long time to transcode uploaded videos. The site might return a response
+to users to inform them that the transcoding will start soon, and start transcoding
+the video asynchronously. Another example is sending emails to users. If your site
+sends email notifications from a view, the Simple Mail Transfer Protocol (SMTP)
+connection might fail or slow down the response. Launching asynchronous tasks
+is essential to avoid blocking the code execution.
+Celery is a distributed task queue that can process vast amounts of messages. Using
+Celery, not only can you create asynchronous tasks easily and let them be executed
+by workers as soon as possible, but you can also schedule them to run at a specific
+time.
+You can find the Celery documentation at http://docs.celeryproject.org/en/
+latest/index.html.
+"""
+register sandbos for test payments
+Open https://www.braintreepayments.com/sandbox in your browser
