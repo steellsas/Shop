@@ -34,16 +34,13 @@ In this project, I do:
 - BrainTree 
 - HTML
 - CSS
+- 
 #Instruction
 
-clone cod
-create python env, 
-instalass requerement txt 
-migrate DB 
-add  RabbitMQ
-create braintree aacount for test payment
-Create superuser
-create products admin panel
-
-
-![Image Name](document/Product List.pngn)
+- clone project code
+- create venv
+- pip install requirements.txt
+- Migrate  Db project
+- Create superuser
+- Install add  RabbitMQ
+- create braintree aacount for test payment
