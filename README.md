@@ -6,6 +6,10 @@
 the checkout process, pay with a credit card, and obtain an invoice.</p>
 Images :
  <img height="200" src="https://github.com/steellsas/Shop/blob/main/document/pay%20creadit.png" width="200"/> 
+ <img  src="https://github.com/steellsas/Shop/blob/main/document/cart.jpg?raw=true"/>
+ <img  src="https://github.com/steellsas/Shop/blob/main/document/Product%20List.png"/>
+ <img  src="https://github.com/steellsas/Shop/blob/main/document/orderadminlist.jpg"/>
+ <img  src="https://github.com/steellsas/Shop/blob/main/document/checkout.jpg"/>
 
 In this project, I do:
 - Created a product catalog
