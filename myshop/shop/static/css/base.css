@@ -235,12 +235,12 @@ ul.errorlist {
 }
 
 .order-info h3 {
-    color:#5993bb;
+    color: #4c7293;
 }
 
 .order-info ul li {
-    margin:0;
-    padding:0;
+    margin:1;
+    padding:1;
     font-size:14px;
 }
 

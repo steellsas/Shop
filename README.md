@@ -17,19 +17,27 @@ In this project, I do:
 - Create custom views for the administration site
 - Generate PDF invoices dynamically
 
-![Image Name](Image location)
+
 
 ## Built With
 
-- Python
+- Python 3.9
 - Django
 - SQLLite
 - Celery (forasynchronous task)
 - BrainTree 
 - HTML
 - CSS
+#Instruction
+
+clone cod
+create python env, 
+instalass requerement txt 
+migrate DB 
+add  RabbitMQ
+create braintree aacount for test payment
+Create superuser
+create products admin panel
 
 
-
-
-pip install braintree==3.59.0
+![Image Name](document/Product List.pngn)
