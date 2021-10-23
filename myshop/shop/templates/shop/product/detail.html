@@ -15,7 +15,7 @@
         {{ product.category }}
       </a>
     </h2>
-    <p class="price">${{ product.price }}</p>
+    <p class="price">EUR. {{ product.price }}</p>
     forma
 
     <form action="{% url 'cart:cart_add' product.id %}" method="post">
