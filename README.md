@@ -4,6 +4,8 @@
 
 <p align="left">This online shop enable clients to browse products, add them to the cart, go through
 the checkout process, pay with a credit card, and obtain an invoice.</p>
+Images :
+ <img height="200" src="https://github.com/steellsas/Shop/blob/main/document/pay%20creadit.png" width="200"/> 
 
 In this project, I do:
 - Created a product catalog
